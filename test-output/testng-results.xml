@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="SeleniumOnlineProject2" duration-ms="25299" started-at="2022-04-07T22:38:25 BDT" finished-at="2022-04-07T22:38:51 BDT">
+  <suite name="SeleniumOnlineProject2" duration-ms="25700" started-at="2022-04-07T22:56:56 BDT" finished-at="2022-04-07T22:57:21 BDT">
     <groups>
     </groups>
-    <test name="LoginModuleTest" duration-ms="23002" started-at="2022-04-07T22:38:25 BDT" finished-at="2022-04-07T22:38:48 BDT">
+    <test name="LoginModuleTest" duration-ms="23468" started-at="2022-04-07T22:56:56 BDT" finished-at="2022-04-07T22:57:19 BDT">
       <class name="com.bitm.SeleniumOnlineProject2.Test.LoginTest">
-        <test-method status="PASS" signature="CheckLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@130f889]" name="CheckLoginPageTitle" duration-ms="14171" started-at="2022-04-07T22:38:25 BDT" finished-at="2022-04-07T22:38:40 BDT">
+        <test-method status="PASS" signature="CheckLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@130f889]" name="CheckLoginPageTitle" duration-ms="14615" started-at="2022-04-07T22:56:56 BDT" finished-at="2022-04-07T22:57:10 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckLoginPageTitle -->
-        <test-method status="PASS" signature="Logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@130f889]" name="Logintest" duration-ms="6657" started-at="2022-04-07T22:38:42 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject2.Test.LoginTest.CheckLoginPageTitle" finished-at="2022-04-07T22:38:48 BDT">
+        <test-method status="PASS" signature="Logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.LoginTest@130f889]" name="Logintest" duration-ms="6948" started-at="2022-04-07T22:57:12 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject2.Test.LoginTest.CheckLoginPageTitle" finished-at="2022-04-07T22:57:19 BDT">
           <params>
             <param index="0">
               <value>
@@ -24,13 +24,13 @@
         </test-method> <!-- Logintest -->
       </class> <!-- com.bitm.SeleniumOnlineProject2.Test.LoginTest -->
     </test> <!-- LoginModuleTest -->
-    <test name="AssignLeaveModuleTest" duration-ms="2155" started-at="2022-04-07T22:38:48 BDT" finished-at="2022-04-07T22:38:51 BDT">
+    <test name="AssignLeaveModuleTest" duration-ms="2121" started-at="2022-04-07T22:57:19 BDT" finished-at="2022-04-07T22:57:21 BDT">
       <class name="com.bitm.SeleniumOnlineProject2.Test.AssignLeaveTest">
-        <test-method status="PASS" signature="AssignLeavePage()[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.AssignLeaveTest@23bb8443]" name="AssignLeavePage" duration-ms="1687" started-at="2022-04-07T22:38:48 BDT" finished-at="2022-04-07T22:38:50 BDT">
+        <test-method status="PASS" signature="AssignLeavePage()[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.AssignLeaveTest@1176dcec]" name="AssignLeavePage" duration-ms="1651" started-at="2022-04-07T22:57:19 BDT" finished-at="2022-04-07T22:57:21 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AssignLeavePage -->
-        <test-method status="FAIL" signature="assignleavetest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.AssignLeaveTest@23bb8443]" name="assignleavetest" duration-ms="45" started-at="2022-04-07T22:38:50 BDT" data-provider="assignleaveData" depends-on-methods="com.bitm.SeleniumOnlineProject2.Test.AssignLeaveTest.AssignLeavePage" finished-at="2022-04-07T22:38:50 BDT">
+        <test-method status="FAIL" signature="assignleavetest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject2.Test.AssignLeaveTest@1176dcec]" name="assignleavetest" duration-ms="42" started-at="2022-04-07T22:57:21 BDT" data-provider="assignleaveData" depends-on-methods="com.bitm.SeleniumOnlineProject2.Test.AssignLeaveTest.AssignLeavePage" finished-at="2022-04-07T22:57:21 BDT">
           <params>
             <param index="0">
               <value>
@@ -45,8 +45,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'IMRAN-PC', ip: '192.168.0.131', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 23344, moz:profile: C:\Users\Imran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 62ad866f-cd8f-4504-bb99-8214fa07dedf
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 19668, moz:profile: C:\Users\Imran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 50b40339-fdcf-41e2-b0e7-70b4597f3e18
 *** Element info: {Using=xpath, value=/html/body/div[1]/div[3]/div[1]/div[2]/form/fieldset/ol/li[1]/input[1]}]]>
             </message>
             <full-stacktrace>
@@ -55,8 +55,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'IMRAN-PC', ip: '192.168.0.131', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 23344, moz:profile: C:\Users\Imran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 62ad866f-cd8f-4504-bb99-8214fa07dedf
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 19668, moz:profile: C:\Users\Imran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 50b40339-fdcf-41e2-b0e7-70b4597f3e18
 *** Element info: {Using=xpath, value=/html/body/div[1]/div[3]/div[1]/div[2]/form/fieldset/ol/li[1]/input[1]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -85,7 +85,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$54/1800659519.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$54/1691538257.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:764)
 at org.testng.TestRunner.run(TestRunner.java:585)
