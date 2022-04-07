@@ -8,7 +8,8 @@
 
 	<test name="AssignLeaveModuleTest">
 		<classes>
-			<class name="com.bitm.SeleniumOnlineProject2.Test.AssignLeaveTest" />
+			<class
+				name="com.bitm.SeleniumOnlineProject2.Test.AssignLeaveTest" />
 		</classes>
 	</test>
 

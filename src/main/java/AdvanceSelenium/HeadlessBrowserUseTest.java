@@ -6,7 +6,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 public class HeadlessBrowserUseTest {
 	
-	private WebDriver driver=null;
+
 
 	public static void main(String[] args) {
 
