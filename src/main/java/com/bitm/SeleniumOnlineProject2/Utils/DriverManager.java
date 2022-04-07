@@ -1,7 +1,6 @@
 package com.bitm.SeleniumOnlineProject2.Utils;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 

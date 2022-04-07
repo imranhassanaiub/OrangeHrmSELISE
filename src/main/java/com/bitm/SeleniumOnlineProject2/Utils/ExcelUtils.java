@@ -24,14 +24,14 @@ public class ExcelUtils {
 
 	private static Sheet getSheet(int sheetNo) throws IOException {
 		// Get the file from locally
-		File f = new File("C:\\Users\\Imran\\Desktop\\data.xlsx");
-		inputStream = new FileInputStream(f);
+		// File f = new File("C:\\Users\\Imran\\Desktop\\data.xlsx");
+		// inputStream = new FileInputStream(f);
 
-		//Get the file ftom project location
-		//File f = new File("src/main/java");
-		//File fs= new File(f, "data.xlsx");
-		//inputStream = new FileInputStream(new File(fs.getAbsolutePath()));
-		
+		// Get the file from project location
+		File f = new File("src/main/java");
+		File fs = new File(f, "data.xlsx");
+		inputStream = new FileInputStream(new File(fs.getAbsolutePath()));
+
 		// get workbook
 		workbook = new XSSFWorkbook(inputStream);
 		Sheet sheet = workbook.getSheetAt(sheetNo);
@@ -79,12 +79,12 @@ public class ExcelUtils {
 			logindata.add(login);
 
 		}
-        close();
+		close();
 		return logindata;
 	}
 
-	//AssignleaveTest
-	
+	// AssignleaveTest
+
 	public static List<AssignLeaveDTO> getAssignLeaveData() throws IOException {
 
 		List<AssignLeaveDTO> assignleavendata = new ArrayList<AssignLeaveDTO>();
@@ -115,27 +115,27 @@ public class ExcelUtils {
 					cellCounter++;
 					break;
 				case 3:
-                    assignleave.setFromdateyear(formater.formatCellValue(cell));
-                    cellCounter++;
+					assignleave.setFromdateyear(formater.formatCellValue(cell));
+					cellCounter++;
 					break;
 				case 4:
-                    assignleave.setFromdatedate(formater.formatCellValue(cell));
-                    cellCounter++;
+					assignleave.setFromdatedate(formater.formatCellValue(cell));
+					cellCounter++;
 					break;
 				case 5:
-                    assignleave.setTodatemonth(formater.formatCellValue(cell));
-                    cellCounter++;
+					assignleave.setTodatemonth(formater.formatCellValue(cell));
+					cellCounter++;
 					break;
 				case 6:
-                    assignleave.setTodateyear(formater.formatCellValue(cell));
-                    cellCounter++;
+					assignleave.setTodateyear(formater.formatCellValue(cell));
+					cellCounter++;
 					break;
 				case 7:
-                    assignleave.setTodatedate(formater.formatCellValue(cell));  
-                    cellCounter++;
+					assignleave.setTodatedate(formater.formatCellValue(cell));
+					cellCounter++;
 					break;
 				case 8:
-                    assignleave.setComment(formater.formatCellValue(cell));                
+					assignleave.setComment(formater.formatCellValue(cell));
 					break;
 				}
 			}
@@ -143,19 +143,14 @@ public class ExcelUtils {
 			assignleavendata.add(assignleave);
 
 		}
-        close();
+		close();
 		return assignleavendata;
 	}
 
-	
-	
-	
-	
-	
 	private static void close() throws IOException {
 		workbook.close();
 		inputStream.close();
-		
+
 	}
 
 }
